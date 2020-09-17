@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
+    <link rel="preload" href="/images/cider.png" as="image">
     <title>Billy Janitsch</title>
     <meta name="description" content="Billy Janitsch on the world wide web." />
     <meta property="og:type" content="website" />
@@ -13,14 +14,19 @@
     <meta property="og:image:height" content="1297" />
     <meta property="og:image:alt" content="Billy Janitsch" />
     <meta property="og:url" content="https://billyjanitsch.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/favicon.png" />
     <style>
       body {
-        background: top center / contain no-repeat url('/images/cider.png');
-        height: 100vh;
         margin: 0;
+      }
+
+      img {
+        display: block;
+        height: 100vh;
+        margin: 0 auto;
       }
     </style>
   </head>
-  <body></body>
+  <body><img src="/images/cider.png" alt="Billy Janitsch" /></body>
 </html>
