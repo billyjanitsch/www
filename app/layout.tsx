@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
     siteName: "Billy Janitsch",
     locale: "en_US",
     type: "website",
+    url: "/",
   },
   twitter: {
     card: "summary_large_image",
@@ -25,7 +27,10 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
