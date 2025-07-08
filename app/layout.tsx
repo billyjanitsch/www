@@ -1,5 +1,5 @@
-import { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
+import { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -11,7 +11,6 @@ export const metadata: Metadata = {
     siteName: "Billy Janitsch",
     locale: "en_US",
     type: "website",
-    url: "/",
   },
   twitter: {
     card: "summary_large_image",
