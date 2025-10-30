@@ -1,3 +1,8 @@
 import type { NextConfig } from "next";
 
-export default {} satisfies NextConfig;
+export default {
+  cacheComponents: true,
+  images: {
+    qualities: [95],
+  },
+} satisfies NextConfig;
