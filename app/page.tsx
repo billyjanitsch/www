@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import cider from "./cider.png";
 
 export default function HomePage() {
