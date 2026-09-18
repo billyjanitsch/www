@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <main>
       <Image
-        className="max-w-screen max-h-screen object-contain"
+        className="max-h-screen max-w-screen object-contain"
         src={cider}
         alt="Billy Janitsch"
         quality={95}

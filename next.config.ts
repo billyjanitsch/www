@@ -5,4 +5,6 @@ export default {
   images: {
     qualities: [95],
   },
+  partialPrefetching: true,
+  typedRoutes: true,
 } satisfies NextConfig;
