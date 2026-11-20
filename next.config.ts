@@ -6,5 +6,12 @@ export default {
     qualities: [95],
   },
   partialPrefetching: true,
+  turbopack: {
+    rules: {
+      "*.css": {
+        loaders: ["@tailwindcss/turbopack"],
+      },
+    },
+  },
   typedRoutes: true,
 } satisfies NextConfig;
